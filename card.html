@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heath Blanchard | Axiom Machine Fab & Repair</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0f172a;
+      --blue: #2A9FD6;
+      --bg-light: #f8fafc;
+      --text-dark: #1e293b;
+      --text-muted: #64748b;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Barlow', sans-serif;
+      background: var(--bg-light);
+      color: var(--text-dark);
+      display: flex;
+      justify-content: center;
+      padding: 20px 16px;
+    }
+    .card-container {
+      background: #ffffff;
+      width: 100%;
+      max-width: 400px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      border: 1px solid #e2e8f0;
+      text-align: center;
+    }
+    .card-header {
+      background: var(--primary);
+      padding: 30px 20px;
+      border-bottom: 4px solid var(--blue);
+    }
+    .card-header img {
+      height: 110px;
+      width: auto;
+      margin-bottom: 12px;
+      border-radius: 4px;
+    }
+    .card-body {
+      padding: 24px 20px;
+    }
+    .name {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 28pt;
+      color: var(--primary);
+      line-height: 1;
+      letter-spacing: 1px;
+    }
+    .title {
+      font-size: 10.5pt;
+      font-weight: 700;
+      color: var(--blue);
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-top: 6px;
+      margin-bottom: 22px;
+    }
+    .btn-save {
+      display: block;
+      background: var(--blue);
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 12pt;
+      padding: 14px;
+      border-radius: 6px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 12px rgba(42, 159, 214, 0.3);
+    }
+    .action-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .action-item {
+      display: flex;
+      align-items: center;
+      padding: 12px 16px;
+      background: var(--bg-light);
+      border-radius: 6px;
+      text-decoration: none;
+      color: var(--text-dark);
+      font-weight: 600;
+      font-size: 11pt;
+      border: 1px solid #e2e8f0;
+    }
+    .action-item span { margin-right: 12px; font-size: 14pt; }
+  </style>
+</head>
+<body>
+
+  <div class="card-container">
+    <div class="card-header">
+      <img src="logo.png" alt="Axiom Logo" onerror="this.onerror=null; this.src='logo.jpg';">
+    </div>
+    <div class="card-body">
+      <div class="name">Tippa "Heath" Blanchard</div>
+      <div class="title">Precision, Fabrication, &amp; Field Service</div>
+
+      <!-- Downloads your contact file with your Google Voice number -->
+      <a href="axiom.vcf" class="btn-save">📲 Save Contact to Phone</a>
+
+      <div class="action-list">
+        <a href="tel:2252386030" class="action-item">
+          <span>📞</span> Call: (225) 238-6030
+        </a>
+        <a href="mailto:heath@axiommfr.com" class="action-item">
+          <span>✉️</span> Email: heath@axiommfr.com
+        </a>
+        <a href="https://axiommfr.com" class="action-item">
+          <span>🌐</span> Visit axiommfr.com
+        </a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
